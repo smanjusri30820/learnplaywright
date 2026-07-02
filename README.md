@@ -1,4 +1,4 @@
-﻿# Playwright Automation Project
+# Playwright Automation Project
 
 This project contains Playwright-based UI automation tests for the OrangeHRM demo application.
 
