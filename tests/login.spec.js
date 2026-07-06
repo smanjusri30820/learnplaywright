@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
-import logindata from "../../learnplaywrightM/Testdata/login.json"
+import logindata from "../../learnplaywright/Testdata/login.json"
 
-import addjobtitte from "../../learnplaywrightM/Testdata/addjobtittle.json"
-import negativelogin from "../../learnplaywrightM/Testdata/negativelogin.json"
+import addjobtitte from "../../learnplaywright/Testdata/addjobtittle.json"
+import negativelogin from "../../learnplaywright/Testdata/negativelogin.json"
 
 
 test('Verify logo vissible', async ({ page }) => {
