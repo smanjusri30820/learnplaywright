@@ -52,3 +52,15 @@ credentials = {
 
 }
 console.log(credentials.username)
+
+
+// immutable - primitives
+// mutable - non-primitive
+
+studentnames = ["manjusri", "shree", "hitha"]
+
+studentnames[1] = "manju"
+console.log(studentnames)
+st = "mansu"
+st[3] = "j"
+console.log(st)
