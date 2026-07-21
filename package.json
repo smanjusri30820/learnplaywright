@@ -1,5 +1,5 @@
 {
-  "name": "learnplaywrightm",
+  "name": "learnplaywright",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,5 +12,11 @@
     "@faker-js/faker": "^10.5.0",
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "exceljs": "^4.4.0",
+    "pdfreader": "^3.0.8",
+    "image-size": "^2.0.2"
   }
 }
