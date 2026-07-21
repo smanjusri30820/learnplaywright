@@ -12,11 +12,14 @@ test('Verify logo vissible', async ({ page }) => {
 
 });
 test('Verify login with valid credentials', async ({ page }) => {
+
+  const username = "Admin"
+  const password = "admin123"
   await page.goto('web/index.php/auth/login');
   await page.getByRole('textbox', { name: 'Username' }).click();
-  await page.getByRole('textbox', { name: 'Username' }).fill(logindata.username);
+  await page.getByRole('textbox', { name: 'Username' }).fill(username);
   await page.getByRole('textbox', { name: 'Password' }).click();
-  await page.getByRole('textbox', { name: 'Password' }).fill(logindata.password);
+  await page.getByRole('textbox', { name: 'Password' }).fill(password);
   await page.getByRole('button', { name: 'Login' }).click();
 });
 test('Verify login with valid username and invalid password', async ({ page }) => {
