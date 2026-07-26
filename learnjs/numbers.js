@@ -11,3 +11,5 @@ console.log(n1+n2)
 //coersion
 
 console.log("shree"+"s"+"atp")
+
+console.log(n1)

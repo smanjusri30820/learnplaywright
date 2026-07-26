@@ -28,3 +28,4 @@ class calculator{
 const call = new calculator()
 
  call.add(5,9)
+ call.substract(5,9)
