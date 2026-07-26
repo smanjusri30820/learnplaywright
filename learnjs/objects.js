@@ -1,28 +1,42 @@
 
-credentials ={
+// credentials ={
 
-    username: "Admin",
-    password:  "admin123"
+//     username: "Admin",
+//     password:  "admin123"
 
-}
+// }
 
-console.log(credentials.username)
-console.log(credentials['username'])
-console.log(credentials.password)
+// console.log(credentials.username)
+// console.log(credentials['username'])
+// console.log(credentials.password)
 
 
-basicdetails={
+// basicdetails={
      
-    firstname : "jhfnb",
-    lastname : "gfgcbc",
-    place : "ATP",
+//     firstname : "jhfnb",
+//     lastname : "gfgcbc",
+//     place : "ATP",
 
-    street : "ramaiah layout",
-    pincode: 550000,
+//     street : "ramaiah layout",
+//     pincode: 550000,
 
+// }
+
+// console.log(basicdetails.street)
+
+
+const creds = {
+
+    username : "Admin",
+    password : "admin123"
 }
 
-console.log(basicdetails.street)
+// creds ['username'] = "apple"
+
+creds ['password'] = "apple"
+
+console.log(creds)
+
 
 
 

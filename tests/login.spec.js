@@ -4,6 +4,8 @@ import logindata from "../../learnplaywright/Testdata/login.json"
 import addjobtitte from "../../learnplaywright/Testdata/addjobtittle.json"
 import negativelogin from "../../learnplaywright/Testdata/negativelogin.json"
 
+const xyz=["Admin","admin123 "]
+
 
 test('Verify logo vissible', async ({ page }) => {
 
