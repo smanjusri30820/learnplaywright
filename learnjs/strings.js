@@ -13,3 +13,32 @@ str2 = "Sridhar"
 str3 = `${str1} and ${str2} are best friends`
 
 console.log(str3)
+
+str = "javascript"
+
+console.log(str.length)
+
+console.log(str[0])
+ 
+//charAt()
+
+console.log(str.charAt(0))
+
+//concat
+
+str1 = "username"
+str2 = "password"
+
+str3 = str1.concat(str2)
+
+console.log(str3)
+
+//toUpperCase()
+
+str4 = `THIS IS A SAMPLE STRING`.toLowerCase()
+console.log(str4)
+
+// trim()
+
+x
+
