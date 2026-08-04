@@ -13,3 +13,5 @@ console.log(n1+n2)
 console.log("shree"+"s"+"atp")
 
 console.log(n1)
+
+// Math

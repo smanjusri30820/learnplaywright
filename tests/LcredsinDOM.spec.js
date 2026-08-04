@@ -27,8 +27,11 @@ test('Verify login', async ({ page }) => {
 })
 test('verify products', async ({ page }) => {
 
-    await page.goto('https://rahulshettyacademy.com/seleniumPractise/#/')
-const vegs = await page.locator('//h4[@class="product-name"]').allTextContents()
-console.log(vegs)
+  await page.goto('https://rahulshettyacademy.com/seleniumPractise/#/')
+  const vegs = await page.locator('//h4[@class="product-name"]').allTextContents()
+  console.log(vegs)
+  await page.locator('//input[@Brocolli - 1 Kg]').fill()
+
+
 })
 
